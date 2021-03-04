@@ -110,10 +110,7 @@ text-align: right;
 /*MAIN */
 
 /*#1 SEZIONE */
-main{
-  
-  height: 500px;
-}
+
 main .top{
   position: relative;
   width: 100%;
@@ -211,5 +208,40 @@ hr{
 .last-section .colonna.description p{
   margin: 15px 0;
 }
-
-
+ /* FOOTER */
+ footer{
+   padding: 0 10%;
+   width: 100%;
+   background-color: gray;
+   height: 100px;
+   line-height: 100px;
+ }
+ footer .struttura{
+   width: 70%;
+ }
+ footer .select{
+   width: 12%;
+   /* margin-right: 2%; */
+ }
+ footer .visualizza{
+  width: 15%;
+ }
+ footer .seleziona{
+   position: relative;
+   vertical-align: middle;
+   display: inline-block;
+   width: 51%;
+   height: 20px;
+   line-height: 20px;
+   border-bottom: 1px solid black;
+ }
+ i{
+   position: absolute;
+   right: 0;
+   top: 50%;
+   transform: translate(-50%,-50%);
+ }
+ footer a{
+   text-decoration: none;
+ }
+ 
