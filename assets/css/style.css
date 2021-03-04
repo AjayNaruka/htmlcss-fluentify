@@ -186,6 +186,9 @@ hr{
   margin: auto;
   color: gray;
 }
+.middle-section p{
+  color: gray;
+}
 
 /*#3 SEZIONE */
 .last-section.main-section-container{
@@ -208,6 +211,9 @@ hr{
 .last-section .colonna.description p{
   margin: 15px 0;
 }
+.last-section p{
+  color: gray;
+}
  /* FOOTER */
  footer{
    padding: 0 10%;
@@ -221,7 +227,7 @@ hr{
  }
  footer .select{
    width: 12%;
-   /* margin-right: 2%; */
+   margin-right: 3%;
  }
  footer .visualizza{
   width: 15%;
@@ -230,10 +236,12 @@ hr{
    position: relative;
    vertical-align: middle;
    display: inline-block;
-   width: 51%;
+   width: 60%;
    height: 20px;
    line-height: 20px;
    border-bottom: 1px solid black;
+   margin-left: 5%;
+   /* font-size: 1vw; */
  }
  i{
    position: absolute;
@@ -245,3 +253,6 @@ hr{
    text-decoration: none;
  }
  
+ .profile .btn.btn-green.btn-large{
+   margin-top: 50px;
+ }
