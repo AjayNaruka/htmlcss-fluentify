@@ -222,6 +222,9 @@ hr{
    height: 100px;
    line-height: 100px;
  }
+ .f-bottom{
+   min-width: 1400px;
+ }
  footer .struttura{
    width: 70%;
  }
